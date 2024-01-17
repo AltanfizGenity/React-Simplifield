@@ -1,7 +1,8 @@
-function MenuBtn() {
+function MenuBtn({ onClick }) {
   return (
-    <button className="icon-btn">
+    <button className="icon-btn" onClick={onClick}>
       <svg
+        className="pointer-events-none"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
