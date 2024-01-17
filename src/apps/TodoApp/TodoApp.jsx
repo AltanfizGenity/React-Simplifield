@@ -1,11 +1,5 @@
-import Navbar from "./components/navbar";
-
 function TodoApp() {
-  return (
-    <div id="TodoApp">
-      <Navbar />
-    </div>
-  );
+  return <div id="TodoApp" className=""></div>;
 }
 
 export default TodoApp;
