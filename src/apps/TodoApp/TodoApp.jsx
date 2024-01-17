@@ -2,7 +2,7 @@ import Navbar from "./components/navbar";
 
 function TodoApp() {
   return (
-    <div id="TodoApp" className="">
+    <div id="TodoApp">
       <Navbar />
     </div>
   );
