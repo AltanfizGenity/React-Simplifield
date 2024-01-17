@@ -1,3 +1,20 @@
+:root {
+  --primary-color: #00aeff;
+  --danger-color: #d05e2c;
+  --info-color: #009a8b;
+}
+
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-btn {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-btn:hover svg {
+  fill: var(--primary-color);
 }
